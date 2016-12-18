@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class Owner extends Component{
-	constructor() {
-		super();
-		this.state = { 
-			forName: 'Mikkel',
-			lastName: 'Stensgaard'
-		 };
+export default class Owner extends React.Component{
+	constructor(props) {
+		super(props);
+		this.state = {
+			FirstName: 'Mikkel',
+			LastName: 'Stensgaard'	
+		};
 	}
 
-	render() {
+	render(){
 		return(
-			<span>{this.props.title} {this.state.forName} {this.state.lastName}</span>
-		);
+			<h1>{this.props.staticWelcome} {this.state.FirstName} {this.state.LastName}</h1>
+		)
 	}
 }
