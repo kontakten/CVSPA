@@ -5,7 +5,11 @@ export default class Fatiguedbox extends React.Component{
 		const template = {
 			title: 'FatiguedBox',
 			description: 'I praktik forløbet, valgte jeg med 2 andre kollegaer at starte virksomhed, med mål om at udvikle et lille spil til mobil platformen henover praktikken. I perioden valgte vi at udarbejde vores produkt igennem Unity(Game Engine) og  SCRUM for at få praktisk erfaring med udviklingsmodellen.',
-			skills: [<Skills value={3} key={6}/>, <Skills value={3} key={7}/>, <Skills value={6} key={8}/>],
+			skills: [
+			<Skills value={6} key={1}/>,
+			<Skills value={7} key={2}/>,
+			<Skills value={5} key={3}/>
+			],
 			fromDate: '2014',
 			ToDate: '2015'
 		};

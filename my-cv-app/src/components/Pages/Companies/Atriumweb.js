@@ -5,7 +5,11 @@ export default class Atriumweb extends React.Component{
 		const template = {
 			title: 'AtriumWeb',
 			description: 'Ansøgt ud hos atriumweb som webudvikler/webdesigner. I processen som web desginer, fik man en sag og udfra denne sag havde kunden specifikke ønsker og man havde dertil stor frihed for designet. Hjemmesiderne er udarbejdet i CMS systemet Joomla, med diverse extensions.',
-			skills: [<Skills value={1} key={0}/>, <Skills value={2} key={1}/>, <Skills value={3} key={2}/>],
+			skills: [
+			<Skills value={2} key={0}/>,
+			<Skills value={3} key={1}/>,
+			<Skills value={0} key={2}/>
+			],
 			fromDate: '2014',
 			ToDate: '2015'
 		};
